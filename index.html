@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jonathan Cordes | Frontend Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript" defer>
+    (function() {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init('wgWmy1CtrRrUFnDP3');
+    })();
+  </script>
+  <script src="script.js" defer></script>
+
+  
+</head>
+<body>
+  <header class="header-footer">
+    <h1 class="name">Jonathan Cordes</h1>
+    <nav>
+      <a href="https://github.com/corjon" target="_blank"><img src="assets/icon-github.svg" alt="github icon"></a>
+      <a href="https://www.frontendmentor.io/profile/corjon" target="_blank"><img src="assets/icon-frontend-mentor.svg" alt="frontend mentor icon"></a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="intro">
+      <!-- <img> -->
+      <div>
+        <p class="greeting">Nice to meet you! I'm <span>Jonathan</span>.</p>
+        <p class="grey-text about">Based in the US, I'm a <span>frontend developer</span> passionate about making accessible web apps with clean, efficient code.</p>
+        <a href="#contact">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="skills">
+      <p>HTML</p>
+      <p>CSS</p>
+      <p>JavaScript</p>
+      <p>React</p>
+      <p>Accessibility</p>
+      <p>Figma</p>
+    </div>
+
+    <h2>Projects</h2>
+
+    <div class="projects-section">
+      <div class="project">
+        <img src="assets/screenshot-officelite.webp" alt="screenshot of officelite site">
+        <h3>Coming Soon Site</h3>
+        <div class="tech">
+          <p>React</p>
+          <p>CSS</p>
+        </div>
+        <p>Two-page website with countdown timer and form validation.</p>
+        <div class="project-links">
+          <a href="https://majestic-profiterole-56030f.netlify.app/" target="_blank">View Project</a>
+          <a href="https://github.com/corjon/officelite-coming-soon/" target="_blank">View Code</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="assets/screenshot-job-listings.webp" alt="screenshot of job listings app">
+        <h3>Job Listings App</h3>
+        <div class="tech">
+          <p>React</p>
+          <p>CSS</p>
+        </div>
+        <p>Fetches data from JSON file and filters data based on selected categories.</p>
+        <div class="project-links">
+          <a href="https://creative-narwhal-4114fc.netlify.app/" target="_blank">View Project</a>
+          <a href="https://github.com/corjon/job-listings-app" target="_blank">View Code</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="assets/screenshot-art-gallery-site.webp" alt="screenshot of blogr landing page">
+        <h3>Art Gallery Website</h3>
+        <div class="tech">
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+        </div>
+        <p>Two-page website with some interesting layout challenges.</p>
+        <div class="project-links">
+          <a href="https://corjon.github.io/art-gallery-website/" target="_blank">View Project</a>
+          <a href="https://github.com/corjon/art-gallery-website" target="_blank">View Code</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="assets/screenshot-blogr-page.webp" alt="screenshot of blogr landing page">
+        <h3>Blogr Landing Page</h3>
+        <div class="tech">
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+        </div>
+        <p>Responsive landing page with mobile navigation.</p>
+        <div class="project-links">
+          <a href="https://corjon.github.io/blogr-landing-page/" target="_blank">View Project</a>
+          <a href="https://github.com/corjon/blogr-landing-page" target="_blank">View Code</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="contact" id="contact">
+    <div>
+      <h4>Contact</h4>
+      <p class="grey-text">I would love to hear about your project and how I could help. Please reach out and I’ll get back to you as soon as possible.</p>
+    </div>
+
+    <form id="my-form">
+      <input type="hidden" name="contact-number" id="contact-number">
+      <div class="field">
+        <input type="text" placeholder="Name" name="user_name" id="name">
+        <div class="error hidden" id="nameError">Please enter your name</div>
+      </div>
+
+      <div class="field">
+        <input type="text" placeholder="Email" name="user_email" id="email">
+        <div class="error hidden" id="emailError">Please enter a valid email address</div>
+      </div>
+
+      <div class="field">
+        <textarea placeholder="Message" name="message" id="message"></textarea>
+        <div class="error hidden" id="messageError">Please enter a message</div>
+      </div>
+
+      <input type="submit" value="Send Message">
+    </form>
+  </div>
+
+  <footer class="header-footer">
+    <p class="name">Jonathan Cordes</p>
+    <nav>
+      <a href="https://github.com/corjon" target="_blank"><img src="assets/icon-github.svg" alt="github icon"></a>
+      <a href="https://www.frontendmentor.io/profile/corjon" target="_blank"><img src="assets/icon-frontend-mentor.svg" alt="frontend mentor icon"></a>
+    </nav>
+  </footer>
+
+</body>
+</html>
