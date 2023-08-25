@@ -261,6 +261,12 @@ form {
   position: relative;
 }
 
+form input,
+form textarea {
+  border-radius: 0;
+  -webkit-border-radius: none;
+}
+
 form input[type=text],
 form textarea {
   margin-bottom: 32px;
