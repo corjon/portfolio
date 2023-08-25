@@ -232,7 +232,8 @@ h4 {
 }
 
 form {
-  width: 445px;
+  width: 100%;
+  max-width: 445px;
 }
 
 .error {
